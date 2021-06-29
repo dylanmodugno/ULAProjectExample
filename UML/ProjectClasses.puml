@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Project {
+    main()
+    start()
+}
+class ProjectController {}
+
+Javafx.Applictaion <|-- Project
+
+Project -- ProjectController
+
+@enduml
